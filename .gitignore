@@ -1,0 +1,9 @@
+.idea
+.env
+.idea/
+.idea/workspace.xml
+.DS_Store
+.buildpath
+.project
+dump.rdb
+.php_cs.cache
