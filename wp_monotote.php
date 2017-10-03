@@ -6,20 +6,7 @@ Description: Easily activate Monotote on your Wordpress website
 Version: 1.0.0
 Author: Chris Schalenborgh
 Author URI: https://www.monotote.com
-License: GPL2
-
-MWP is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-any later version.
- 
-MWP is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
- 
 */
-
 
 add_action( 'admin_menu', 'MTWP_add_admin_menu' );
 add_action( 'admin_init', 'MTWP_settings_init' );
@@ -48,7 +35,6 @@ function MTWP_settings_init() {
 	);
 }
 
-
 function MTWP_text_field_0_render() {
 	$options = get_option( 'MTWP_settings' );
 
@@ -61,7 +47,6 @@ function MTWP_settings_section_callback() {
 
 
 function MTWP_options_page() {
-
 	?>
     <div style="padding:10px;margin:10px 10px 0 0;background:white;">
 	<form action="options.php" method="post">
