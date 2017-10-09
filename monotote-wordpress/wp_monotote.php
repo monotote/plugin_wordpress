@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Monotote Wordpress Plugin (MWP)
+Plugin Name: Monotote
 Plugin URI: https://support.monotote.com/hc/en-us/articles/115005069389-Wordpress-plugin
-Description: Easily activate Monotote on your Wordpress website
-Version: 1.0.0
+Description: Install the Monotote shopping cart plugin in your Wordpress website
+Version: 1.0.1
 Author: Chris Schalenborgh
 Author URI: https://www.monotote.com
 */
