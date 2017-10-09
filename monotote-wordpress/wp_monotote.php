@@ -51,7 +51,7 @@ function MTWP_options_page() {
     <div style="padding:10px;margin:10px 10px 0 0;background:white;">
 	<form action="options.php" method="post">
 
-		<p><img src="<?php echo plugin_dir_url( __FILE__ );?>/logo.png"></p>
+		<p><img src="<?php echo plugin_dir_url( __FILE__ );?>/monotote-wordpress/logo.png"></p>
 
 		<?php
 		settings_fields( 'pluginPage' );
