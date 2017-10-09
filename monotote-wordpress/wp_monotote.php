@@ -12,7 +12,7 @@ add_action( 'admin_menu', 'MTWP_add_admin_menu' );
 add_action( 'admin_init', 'MTWP_settings_init' );
 
 function MTWP_add_admin_menu() {
-	add_menu_page( 'Monotote', 'Monotote WP plugin', 'manage_options', 'monotote_wp_plugin', 'MTWP_options_page', plugins_url('Monotote-Wordpress/menulogo.png', 6));
+	add_menu_page( 'Monotote', 'Monotote', 'manage_options', 'monotote_wp_plugin', 'MTWP_options_page', plugins_url('monotote-wordpress/menulogo.png', 6));
 }
 
 function MTWP_settings_init() {
