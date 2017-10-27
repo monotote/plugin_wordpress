@@ -12,7 +12,7 @@ add_action( 'admin_menu', 'MTWP_add_admin_menu' );
 add_action( 'admin_init', 'MTWP_settings_init' );
 
 function MTWP_add_admin_menu() {
-	add_menu_page( 'Monotote', 'Monotote', 'manage_options', 'monotote_wp_plugin', 'MTWP_options_page', plugins_url('monotote-wordpress/menulogo.png', 6));
+    add_menu_page( 'Monotote', 'Monotote', 'manage_options', 'monotote_wp_plugin', 'MTWP_options_page', plugin_dir_url( __FILE__ ). 'menulogo.png' );
 }
 
 function MTWP_settings_init() {
@@ -42,7 +42,7 @@ function MTWP_text_field_0_render() {
 }
 
 function MTWP_settings_section_callback() {
-	echo __( 'Enter your publisher key as shown on the Monotote <a href="https://dashboard.monotote.com/include-code" target="_new">embed code page</a>.', 'wordpress');
+	echo __( 'Enter your publisher key as shown on the Monotote <a href="https://dashboard.monotote.com/include-code" target="_new">embed code page</a>.', 'wordpress' );
 }
 
 
@@ -51,7 +51,7 @@ function MTWP_options_page() {
     <div style="padding:10px;margin:10px 10px 0 0;background:white;">
 	<form action="options.php" method="post">
 
-		<p><img src="<?php echo plugin_dir_url( __FILE__ );?>/logo.png"></p>
+        <p><img src="<?php echo plugin_dir_url( __FILE__ );?>logo.png"></p>
 
 		<?php
 		settings_fields( 'pluginPage' );
