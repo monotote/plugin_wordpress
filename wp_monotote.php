@@ -73,7 +73,7 @@ function add_this_script_footer() {
         echo "<!-- monotote.com tag -->
 <script>
   var _mnt = {publisherKey: '" .$monotote_key. "'};
-  (function (document) { var s = document.createElement('script'); s.async = true; s.src = 'https://plugin.monotote.com/plugin.min.js?' + Date.now(); document.body.appendChild(s); })(document)
+  (function (document) { var s = document.createElement('script'); s.async = true; s.src = 'https://plugin1.monotote.com/plugin.min.js?' + Date.now(); document.body.appendChild(s); })(document)
 </script>
 <!-- End monotote.com tag -->";
     }
